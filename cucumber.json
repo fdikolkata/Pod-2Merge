@@ -1,0 +1,25 @@
+{
+    "default": {
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+        "paths": [
+            "features"
+        ],
+        "require": [
+            "Features/StepDef/*.ts",
+            "Features/support/hooks.ts"
+        ],
+        "format": [
+            "allure-cucumberjs/reporter",
+            "line",
+            "html:cucumber-report.html",
+            "progress-bar"
+        ],
+        "requireModule": [
+            "ts-node/register"
+        ],
+        "dryRun": false
+        
+    }
+}
